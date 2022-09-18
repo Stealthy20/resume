@@ -69,6 +69,10 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -90,7 +94,7 @@ header {
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color #fafafa;
+    color: #fafafa;
     font-size: 26px;
 }
 
@@ -103,4 +107,11 @@ header {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
+}
+
+/* hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
