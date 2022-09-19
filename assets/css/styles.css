@@ -58,7 +58,7 @@ h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 0 30px;
+    padding: 0 30px 30px;
     float: none;
 }
 
@@ -223,4 +223,39 @@ footer {
 
 .three-reason-heading {
     margin-bottom: 15px;
+}
+
+/* Personal Info */
+
+.personal-info-item {
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
