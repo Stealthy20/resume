@@ -358,6 +358,16 @@ footer {
     margin-bottom: 30px;
 }
 
+.cv-para {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.cv-heading {
+    text-align: center;
+}
+
 /* Contact form */
 
 .contact-heading {
