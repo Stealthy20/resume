@@ -109,7 +109,7 @@ header {
 }
 
 .logo {
-    background: url(../images/fredrik-cv.jpg);
+    background: url(../images/fredrik_cv_bred.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -402,6 +402,27 @@ button[type="submit"] {
     }
 }
 
+/* No less than 400px, no greater than 900px */
+@media (min-width:768px) and (max-width:1500px) {
+    .logo {
+        background: url(../images/fredrik_cv.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 360px;
+    }
+}
+
+@media (max-width:400px) {
+    .logo {
+        background: url(../images/fredrik_cv.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 360px;
+    }
+    
+}
 
 /* Maps styling */
 #map {min-height: 360px;}
